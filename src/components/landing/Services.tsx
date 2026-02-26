@@ -1,25 +1,25 @@
-import { CircleDot, Layers, Rocket } from "lucide-react"
+import { ShieldCheck, Truck, BadgeCheck } from "lucide-react"
 
 const services = [
   {
     id: 1,
-    title: "Исследование",
-    description: "Расскажите о вашем проекте, и мы поможем воплотить вашу идею в жизнь.",
-    icon: CircleDot,
+    title: "100% оригинал",
+    description: "Продаём только оригинальную технику Apple. Каждое устройство проходит проверку подлинности перед отправкой.",
+    icon: BadgeCheck,
     color: "bg-[#7A7FEE]",
   },
   {
     id: 2,
-    title: "Разработка",
-    description: "Создаем масштабируемые и надежные решения, используя лучшие инструменты.",
-    icon: Layers,
+    title: "Официальная гарантия",
+    description: "Гарантия производителя на все устройства. Сервисная поддержка и помощь при гарантийных случаях.",
+    icon: ShieldCheck,
     color: "bg-[#7A7FEE]",
   },
   {
     id: 3,
-    title: "Запуск + Развитие",
-    description: "Бесшовная интеграция, оптимизация и масштабирование по мере роста вашего бизнеса.",
-    icon: Rocket,
+    title: "Быстрая доставка",
+    description: "Доставка по всей России в течение 1-3 дней. Бесплатная доставка при заказе от 10 000 рублей.",
+    icon: Truck,
     color: "bg-[#7A7FEE]",
   },
 ]
@@ -28,12 +28,12 @@ export default function Services() {
   return (
     <section id="services" className="my-20">
       <h2 className="text-black dark:text-white mb-6 text-3xl md:text-4xl lg:text-5xl font-medium leading-tight">
-        Раскройте потенциал
-        <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">вашего бизнеса</span>
+        Почему выбирают
+        <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">нас</span>
       </h2>
       <p className="mb-12 max-w-2xl text-gray-700 dark:text-gray-300">
-        Мы создаем кастомные платформы и AI-инструменты для упрощения операций и масштабирования. Наш процесс делает
-        реализацию ваших идей простой и эффективной.
+        Мы работаем только с оригинальной продукцией Apple и делаем покупку максимально удобной и безопасной.
+        Тысячи довольных покупателей по всей России.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

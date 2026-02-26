@@ -14,15 +14,15 @@ export default function Footer() {
       <div className="flex flex-col items-center text-center">
         <a href="#" className="flex items-center justify-center mb-4">
           <span className="text-2xl font-bold text-black dark:text-white">
-            Neural<span className="text-[#7A7FEE]">Works</span>
+            Apple<span className="text-[#7A7FEE]">Store</span>
           </span>
         </a>
         <p className="text-sm text-gray-600 dark:text-gray-400 max-w-md mx-auto mb-8">
-          Ваш AI-партнер в создании качественных масштабируемых платформ.
+          Оригинальная техника Apple с официальной гарантией и быстрой доставкой по всей России.
         </p>
 
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          {new Date().getFullYear()} NeuralWorks. Все права защищены.
+          {new Date().getFullYear()} AppleStore. Все права защищены.
         </p>
       </div>
     </footer>
